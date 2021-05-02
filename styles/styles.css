@@ -1,2 +1,80 @@
 @import 'meyers-rest.css';
 @import 'reset.css';
+
+* {
+	/* outline: 2px solid red; */
+}
+
+body {
+	height: 100vh;
+	background: url('../images/pallet-town.png') no-repeat fixed center
+		center/cover;
+}
+
+/* title section */
+
+.heading {
+	max-width: 100%;
+}
+
+.site-title {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #cc0000;
+}
+
+.site-title picture {
+	padding: 10px 20px;
+}
+
+.pokedex {
+	width: 250px;
+}
+
+.pokeball img {
+	width: 50px;
+}
+
+/* gallery */
+
+main {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pokedex-gallery {
+	/* border: 10px solid purple; */
+	width: min(95%, 800px);
+	margin: 0 auto;
+	display: flex;
+	align-items: stretch;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.pokemon {
+	width: min(33.33%, 30%);
+	border: 3px solid #cc0000;
+	margin: 5px;
+	flex-grow: 1;
+	background-color: rgb(255, 255, 255, 0.6);
+}
+
+.pokemon h2 {
+	background-color: #cc0000;
+	font-family: arial;
+	color: #fff;
+	padding: 5px;
+}
+
+.search input {
+	margin: 10px;
+	padding: 10px;
+	font-size: 14px;
+	text-align: center;
+}

@@ -10,7 +10,7 @@ picture {
 
 picture img {
 	display: block;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 
