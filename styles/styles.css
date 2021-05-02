@@ -1,2 +1,43 @@
 @import 'meyers-rest.css';
 @import 'reset.css';
+
+* {
+	/* outline: 2px solid red; */
+}
+
+body {
+	height: 100vh;
+	background: url('../images/pallet-town.png') no-repeat fixed center
+		center/cover;
+}
+
+/* title section */
+header {
+	max-width: 100%;
+	height: 100%;
+}
+
+.site-title {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #cc0000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.site-title picture {
+	padding: 10px 20px;
+}
+
+.pokedex {
+	width: 250px;
+}
+
+.pokeball img {
+	width: 50px;
+}
