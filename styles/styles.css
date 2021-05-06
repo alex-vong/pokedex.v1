@@ -1,10 +1,6 @@
 @import 'meyers-rest.css';
 @import 'reset.css';
 
-* {
-	/* outline: 2px solid red; */
-}
-
 body {
 	height: 100vh;
 	background: url('../images/pallet-town.png') no-repeat fixed center
@@ -48,6 +44,10 @@ main {
 	justify-content: center;
 	align-items: center;
 }
+
+audio {
+	margin-bottom: 15px;
+}
 .pokedex-gallery {
 	width: min(95%, 800px);
 	margin: 0 auto;
@@ -67,7 +67,7 @@ main {
 
 .pokemon h2 {
 	background-color: #cc0000;
-	font-family: arial;
+	font-family: monaco;
 	color: #fff;
 	padding: 10px;
 	font-size: 14px;
@@ -80,30 +80,31 @@ main {
 .grass h2 {
 	background-color: #4e8234;
 }
+
 .water {
 	border: 4px solid #6890f0;
 }
 .water h2 {
 	background-color: #6890f0;
 }
+
 .bug {
 	border: 4px solid #82901c;
 }
-
 .bug h2 {
 	background-color: #82901c;
 }
+
 .flying {
 	border: 4px solid #a890f0;
 }
-
 .flying h2 {
 	background-color: #a890f0;
 }
+
 .normal {
 	border: 4px solid #a8a878;
 }
-
 .normal h2 {
 	background-color: #a8a878;
 }
@@ -111,58 +112,61 @@ main {
 .poison {
 	border: 4px solid #a040a0;
 }
-
 .poison h2 {
 	background-color: #a040a0;
 }
+
 .electric {
 	border: 4px solid #f8d030;
 }
-
 .electric h2 {
 	background-color: #f8d030;
 }
+
 .ground {
 	border: 4px solid #e0c068;
 }
-
 .ground h2 {
 	background-color: #e0c068;
 }
+
 .fighting {
 	border: 4px solid #7d1f1a;
 }
-
 .fighting h2 {
 	background-color: #7d1f1a;
 }
+
 .ghost {
 	border: 4px solid #705898;
 }
-
 .ghost h2 {
 	background-color: #705898;
 }
+
 .psychic {
 	border: 4px solid #f85888;
 }
-
 .psychic h2 {
 	background-color: #f85888;
 }
+
 .ice {
 	border: 4px solid #98d8d8;
 }
-
 .ice h2 {
 	background-color: #98d8d8;
 }
+
 .dragon {
 	border: 4px solid #7038f8;
 }
-
 .dragon h2 {
 	background-color: #7038f8;
+}
+
+.pokemon:hover {
+	scale: 1.08;
 }
 
 @media (min-width: 600px) {
