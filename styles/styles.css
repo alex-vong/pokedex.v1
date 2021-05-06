@@ -73,6 +73,14 @@ audio {
 	font-size: 14px;
 }
 
+.ash,
+.poke-logo {
+	display: flex;
+	align-items: center;
+	border: none;
+	background-color: transparent;
+}
+
 /* pokemon type */
 .grass {
 	border: 4px solid #4e8234;
